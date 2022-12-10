@@ -23,21 +23,22 @@ const About = () => {
                         <article className="about-card">
                             <FaAward className='about-icon'></FaAward>
                             <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <small>6+ Months Working</small>
                         </article>
                         <article className="about-card">
                             <FiUsers className='about-icon'></FiUsers>
                             <h5>Clients</h5>
-                            <small>200+ WorldWide</small>
+                            <small>20+ WorldWide</small>
                         </article>
                         <article className="about-card">
                             <VscFolderLibrary className='about-icon'></VscFolderLibrary>
                             <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <small>10+ Completed</small>
                         </article>
                     </div>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, esse praesentium! Velit, tempore! Aliquam, doloribus mollitia quibusdam inventore ab ea eos aut incidunt dolorum at rerum quae in distinctio ipsam.</p>
+                    <p>I'm Farvez Hossen, an aspiring MERN Stack Developer with strong knowledge of JavaScript, Es6, React , Express, MongoDB. I always love to learn new technologies.
+                        Pursuing Bachelor degree in Computer science and engineering from European University Of Bangladesh.</p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

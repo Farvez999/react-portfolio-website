@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 120vh;
     padding-top: 5rem;
     overflow: hidden;
 }
@@ -68,8 +68,9 @@ header {
 /* --------Media queries (Medium Devices) */
 @media screen and (max-width:1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
+
 }
 
 /* --------Media queries (Small Devices) */
