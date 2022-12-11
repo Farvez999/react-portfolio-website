@@ -1,19 +1,44 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG1 from '../../assets/portfolio1.jpg'
+// import IMG2 from '../../assets/portfolio2.jpg'
+// import IMG3 from '../../assets/portfolio3.jpg'
+// import IMG4 from '../../assets/portfolio4.jpg'
+// import IMG5 from '../../assets/portfolio5.png'
+// import IMG6 from '../../assets/portfolio6.jpg'
+import { useState } from 'react';
+import ProductCard from './ProductCard';
 
 const Portfolio = () => {
+
+    const [projects, setProjects] = useState([]);
+
+
+    useEffect(() => {
+        fetch('portfolios.json')
+            .then((response) => response.json())
+            .then((data) => setProjects(data));
+    }, [])
+
+    console.log(projects);
+
     return (
         <section id='portfolio'>
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
 
             <div className="container portfolio-container">
+                {
+                    projects.map(project =>
+                        <ProductCard
+                            key={project.id}
+                            project={project}
+                        ></ProductCard>
+                    )
+                }
+            </div>
+
+            {/* <div className="container portfolio-container">
                 <article className='portfolio-item'>
                     <div className="portfolio-item-img">
                         <img src={'https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80'} alt="" />
@@ -89,7 +114,7 @@ const Portfolio = () => {
                     </div>
                 </article>
 
-            </div>
+            </div> */}
         </section>
     );
 };
