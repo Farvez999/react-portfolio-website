@@ -1,86 +1,104 @@
 [
     {
-        "id": 1,
         "img": "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
         "src": [
-            "https://gyazo.com/6782dabc606689118f2af51ce5cfffe4",
-            "https://gyazo.com/61294a1b88db2283de23cda27497ece4",
-            "https://gyazo.com/e61ec8671c7fa493493627ba0f385d65",
-            "https://gyazo.com/033bedbd5f6e2976f0efa8372503948e"
+            "https://i.ibb.co/SX3XMhg/pc1.png",
+            "https://i.ibb.co/pv5K4mS/pc2.png",
+            "https://i.ibb.co/NKXQCG7/pc3.png",
+            "https://i.ibb.co/xs4hLTg/pc4.png"
         ],
         "title": "PC House",
         "shortDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options. The full website is mobile-friendly.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users.",
+            "Seller - Features : 1. Creates a new seller using user email. 2. Login sees dashboard seller their My product, and Add Product. 3. My product option sees her all prosucts. 4. Add product user can be add a new product.",
+            "Buyers - Features : 1. The user creates a Buyer account by email and password or using google sign-in. 2. Buyer place order. 3. Login dashboard user sees their all orders, pending order. 4. Buyers can add a report on a product"
+        ],
         "githubLink": "https://github.com/Farvez999/pc-house-project-reactJs",
         "LiveLink": "https://used-products-resale-clients.web.app/"
     },
     {
-        "id": 2,
         "img": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
         "src": [
-            "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
-            "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-            "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            "https://i.ibb.co/NLJKd7x/d1.png",
+            "https://i.ibb.co/R4s0yKv/d2.png",
+            "https://i.ibb.co/bFhGjHt/d3.png",
+            "https://i.ibb.co/ZzCz9qg/d4.png"
         ],
         "title": "Doctor Portal",
         "shortDescription": "Patients can booking the doctor's appointment from the Doctor Portal website.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+        ],
         "githubLink": "https://github.com/Farvez999/doctors-portal-client",
         "LiveLink": "https://doctors-portal-aef0d.web.app/"
     },
     {
-        "id": 3,
         "img": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
         "src": [
-            "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
-            "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-            "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            "https://i.ibb.co/YWmCYjv/h1.png",
+            "https://i.ibb.co/pxgcpWn/h2.png",
+            "https://i.ibb.co/PtJbxB3/h4.png",
+            "https://i.ibb.co/LgGKvns/h3.png"
         ],
         "title": "Cute cut Hair Studio",
         "shortDescription": "Experience professional hair care from one of the top salons in Dhaka, Bangladesh.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+        ],
         "githubLink": "https://github.com/Farvez999/Hair-Studio-Project",
         "LiveLink": "https://travel-tips-a4437.web.app/"
     },
     {
-        "id": 4,
         "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "src": [
-            "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
-            "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-            "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            "https://i.ibb.co/RhRKM3D/s1.png",
+            "https://i.ibb.co/NysBKsY/s2.png",
+            "https://i.ibb.co/S0kMqN9/s4.png",
+            "https://i.ibb.co/JC7GszP/s3.png"
         ],
         "title": "Shikhbo",
         "shortDescription": "Shikhbo is a skill development platform focusing on live learning.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+        ],
         "githubLink": "https://github.com/Farvez999/Shikhbo-Project-ReactJS",
         "LiveLink": "https://learning-platform-website.web.app/"
     },
     {
-        "id": 5,
         "img": "https://images.unsplash.com/photo-1527383418406-f85a3b146499?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "src": [
-            "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
-            "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-            "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            "https://i.ibb.co/N14qKch/g1.png",
+            "https://i.ibb.co/pd1QFBb/g2.png",
+            "https://i.ibb.co/Sdj21D6/g3.png",
+            "https://i.ibb.co/S7hVkWJ/g5.png"
         ],
         "title": "Genius Car",
         "shortDescription": "Genius Car is Car parts services Website.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+        ],
         "githubLink": "https://github.com/Farvez999/genius-car-website",
         "LiveLink": "https://genius-car-25aba.firebaseapp.com/"
     },
     {
-        "id": 6,
-        "img": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "img": "https://i.ibb.co/FHddJMs/e1.png",
         "src": [
-            "https://images.unsplash.com/photo-1648824572347-517357c9c44e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1824&q=80",
-            "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-            "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+            "https://i.ibb.co/FHddJMs/e1.png",
+            "https://i.ibb.co/CJV8Bxc/e3.png",
+            "https://i.ibb.co/bsknhZJ/e2.png"
         ],
         "title": "Ema John",
         "shortDescription": "Ema John is products sale e-commerces Website.",
-        "fullDescription": "This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.This website is related to selling used (second-hand products) with the ability to advertise a product.",
+        "fullDescription": [
+            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
+            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+        ],
         "githubLink": "https://github.com/Farvez999/ema-john-resources-project-react",
         "LiveLink": "https://ema-john-resources-react.firebaseapp.com/"
     }

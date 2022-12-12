@@ -38,13 +38,15 @@
 .box .row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-.box .row h2 {
+.box .row h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+
 
 .box .row span {
     color: crimson;

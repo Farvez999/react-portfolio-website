@@ -8,7 +8,7 @@ const ProjectDetails = () => {
 
 
 
-    const { _id, title, img, src, fullDescription, githubLink, LiveLink } = projects;
+    const { _id, title, img, src, shortDescription, fullDescription, githubLink, LiveLink } = projects;
     // console.log(_id, title, img, src, fullDescription, githubLink, LiveLink);
     const [mainImage, setMainImage] = useState(src[0])
 
@@ -45,17 +45,26 @@ const ProjectDetails = () => {
                 <div className="box">
 
                     <div className="row">
-                        <h2>{title}</h2>
+                        <h1>{title}</h1>
                         {/* <span>1299</span> */}
                     </div>
-
-
-                    <p>{fullDescription}</p>
+                    <h3>-{shortDescription}</h3>
 
                     <div className="portfolio-item-cta">
                         <a href={githubLink} className='btn btn-primary' target='blank'>Github</a>
                         <a href={LiveLink} className='btn' target='blank'>Live Demo</a>
                     </div>
+
+                    <p>{fullDescription[0]}</p>
+
+                    <h2>{fullDescription[1]?.split(':')[0]}</h2>
+                    <p>{fullDescription[1]?.split(':')[1]}</p>
+
+                    <h2>{fullDescription[2]?.split(':')[0]}</h2>
+                    <p>{fullDescription[2]?.split(':')[1]}</p>
+
+                    <h2>{fullDescription[3]?.split(':')[0]}</h2>
+                    <p>{fullDescription[3]?.split(':')[1]}</p>
 
                     {/* <div className='thumb'>
                         {
