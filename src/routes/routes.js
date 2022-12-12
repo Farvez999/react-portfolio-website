@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home/Home";
-import DetailsProjects from "../components/Portfolio/DetailsProjects";
+import ProjectDetails from "../components/PortfolioDetails/ProjectDetails";
 import Main from "../layouts/Main";
 
 export const router = createBrowserRouter([
@@ -14,10 +14,9 @@ export const router = createBrowserRouter([
             },
 
             {
-                path: `/details/:id`,
-                element: <DetailsProjects></DetailsProjects>,
-                loader: ({ params }) => fetch(`ProjectsData/${params.id}.json`)
-
+                path: `/projectDetails/:id`,
+                element: <ProjectDetails />,
+                loader: ({ params }) => fetch(`https://react-portfolio-server-pi.vercel.app/projects/${params.id}`)
             },
         ]
     },

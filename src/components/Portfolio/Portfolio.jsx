@@ -1,11 +1,5 @@
 import React, { useEffect } from 'react';
 import './Portfolio.css'
-// import IMG1 from '../../assets/portfolio1.jpg'
-// import IMG2 from '../../assets/portfolio2.jpg'
-// import IMG3 from '../../assets/portfolio3.jpg'
-// import IMG4 from '../../assets/portfolio4.jpg'
-// import IMG5 from '../../assets/portfolio5.png'
-// import IMG6 from '../../assets/portfolio6.jpg'
 import { useState } from 'react';
 import ProductCard from './ProductCard';
 
@@ -15,7 +9,7 @@ const Portfolio = () => {
 
 
     useEffect(() => {
-        fetch('portfolios.json')
+        fetch('https://react-portfolio-server-pi.vercel.app/projects')
             .then((response) => response.json())
             .then((data) => setProjects(data));
     }, [])

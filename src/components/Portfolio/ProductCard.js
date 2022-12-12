@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 const ProductCard = ({ project }) => {
 
-    const { id, title, shortDescription, img } = project;
+    const { _id, title, shortDescription, img, LiveLink } = project;
     console.log(project)
 
     return (
@@ -15,9 +15,9 @@ const ProductCard = ({ project }) => {
             <h3>{title}</h3>
             <small>{shortDescription}</small>
             <div className="portfolio-item-cta">
-                <Link to={`/details/${id}`} className='btn btn-primary' target='blank'>Explore More</Link>
-                {/* <a href={project.githubLink} className='btn' target='blank'>Github</a>
-            <a href={project.LiveLink} className='btn btn-primary' target='blank'>Live Demo</a> */}
+                <Link to={`/projectDetails/${_id}`} className='btn btn-primary' target='blank'>Explore More</Link>
+                {/* <a href={project.githubLink} className='btn btn-primary' target='blank'>Github</a> */}
+                <a href={project.LiveLink} className='btn' target='blank'>Live Demo</a>
             </div>
         </article>
     );
