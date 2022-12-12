@@ -30,9 +30,20 @@
 }
 
 .details .box {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-bg-variant);
+    transition: var(--transition);
+
     max-width: 500px;
     min-width: 290px;
     margin: 25px;
+}
+
+.details .box:hover {
+    background-color: var(--color-primary-variant);
+    background: transparent;
 }
 
 .box .row {

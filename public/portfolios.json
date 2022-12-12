@@ -29,8 +29,9 @@
         "title": "Doctor Portal",
         "shortDescription": "Patients can booking the doctor's appointment from the Doctor Portal website.",
         "fullDescription": [
-            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
-            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+            "Doctor Portal — Patients can booking a doctor's appointment from the Doctor Portal website. A patient can take only one doctor's appointment in a day and cannot take more appointments than that. The appointment bill can be paid online in User Dashboard. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment gateway system, Mongodb for Database, NodeJS, and ExpressJS for the backend, etc. User login to get more options.",
+            "Admin - Features : 1. Admin can see all the users on the admin dashboard and can remove the users if they want. 2. Admin can make a user an admin if he wants. 3. Admin can add a doctor and remove a doctor",
+            "Patient Features : 1. A patient can take only one doctor's appointment in a day and cannot take more appointments than that. 2. The appointment bill can be paid online in User Dashboard."
         ],
         "githubLink": "https://github.com/Farvez999/doctors-portal-client",
         "LiveLink": "https://doctors-portal-aef0d.web.app/"
@@ -46,8 +47,9 @@
         "title": "Cute cut Hair Studio",
         "shortDescription": "Experience professional hair care from one of the top salons in Dhaka, Bangladesh.",
         "fullDescription": [
-            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
-            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+            "Cute cut Hair Studio - Experience professional hair care from one of the top salons in Dhaka, Bangladesh. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Mongodb for Database, NodeJS, and ExpressJS for the backend, etc. User login to get more options. Admin can add service if he wants. Admin can see all users. Users can buy every service by logging in. Users can give reviews on the service. Users can edit and delete their reviews.",
+            "Admin - Features : 1. Admin can add service if he wants. 2. Admin can see all users.",
+            "User - Features : 1. Users can buy every service by logging in. 2. Users can give reviews on the service. 3. Users can edit and delete their reviews."
         ],
         "githubLink": "https://github.com/Farvez999/Hair-Studio-Project",
         "LiveLink": "https://travel-tips-a4437.web.app/"
@@ -63,8 +65,8 @@
         "title": "Shikhbo",
         "shortDescription": "Shikhbo is a skill development platform focusing on live learning.",
         "fullDescription": [
-            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
-            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+            "Shikhbo Learning Platform Application. It`s a MERN stack project. Use ReactJS, Bootstrap CSS, Firebase, Jwt, react-router-dom, Apis, NodeJS, and ExpressJS for the backend etc. You can enroll in the course by viewing the course details here",
+            "User - Features : A student can enroll in category wise any course by logging in here."
         ],
         "githubLink": "https://github.com/Farvez999/Shikhbo-Project-ReactJS",
         "LiveLink": "https://learning-platform-website.web.app/"
@@ -80,8 +82,8 @@
         "title": "Genius Car",
         "shortDescription": "Genius Car is Car parts services Website.",
         "fullDescription": [
-            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
-            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+            "Genius Car is a car parts selling website. Anyone can buy car wallets from here by logging in. Use ReactJS, Bootstrap CSS, Firebase, Jwt, react-router-dom, Apis, NodeJS, and ExpressJS for the backend etc.",
+            "User - Features : 1. User login email and password or google login. 2. User order the car parts in this website"
         ],
         "githubLink": "https://github.com/Farvez999/genius-car-website",
         "LiveLink": "https://genius-car-25aba.firebaseapp.com/"
@@ -96,8 +98,8 @@
         "title": "Ema John",
         "shortDescription": "Ema John is products sale e-commerces Website.",
         "fullDescription": [
-            "PC House — This website is related to selling used (second-hand products) with the ability to advertise a product. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Stripe payment getway system, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. The user sees the products and purchases. User login to get more options.",
-            "Admin - Features : 1. Admin and user login as the same page but, their dashboard is different. 2. Admin dashboard Show All users. 3. Admin can add a verified user. 4. Admin Manage all users."
+            "Ema John is products sale e-commerces Website. It`s a MERN stack project. Use ReactJS, Tailwind CSS, Firebase, Jwt, react-router-dom, Mongodb for Database, NodeJS, and ExpressJS for the backend etc. User buy this multi product in this website.",
+            "User - Features : 1. User login email and password or google login. 2. User order the products buy in this website"
         ],
         "githubLink": "https://github.com/Farvez999/ema-john-resources-project-react",
         "LiveLink": "https://ema-john-resources-react.firebaseapp.com/"

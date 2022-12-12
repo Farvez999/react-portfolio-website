@@ -15,7 +15,7 @@ const ProductCard = ({ project }) => {
             <h3>{title}</h3>
             <small>{shortDescription}</small>
             <div className="portfolio-item-cta">
-                <Link to={`/projectDetails/${_id}`} className='btn btn-primary' target='blank'>Explore More</Link>
+                <Link to={`/projectDetails/${_id}`} className='btn btn-primary' >Explore More</Link>
                 {/* <a href={project.githubLink} className='btn btn-primary' target='blank'>Github</a> */}
                 <a href={project.LiveLink} className='btn' target='blank'>Live Demo</a>
             </div>

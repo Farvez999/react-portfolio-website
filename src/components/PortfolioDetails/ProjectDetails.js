@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 import './ProjectDetails.css'
 
 const ProjectDetails = () => {
     const projects = useLoaderData();
     console.log(projects);
+
+    const navigate = useNavigate();
 
 
 
@@ -74,7 +76,10 @@ const ProjectDetails = () => {
                             ))
                         }
                     </div> */}
-
+                    <div className="portfolio-item-cta">
+                        {/* <Link to={'#portfolio'} className='btn' target='blank'>Go To All Project</Link> */}
+                        <Link className='btn' onClick={() => navigate(-1)}>Go To All Project</Link>
+                    </div>
 
                 </div>
             </div>
